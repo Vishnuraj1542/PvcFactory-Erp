@@ -9,9 +9,8 @@ class UserAccount(AbstractUser):
     created_at=models.DateTimeField(auto_now_add=True,null=True,blank=True)
 
 class PersonalDetails(models.Model):
-    user = models.OneToOneField(UserAccount,null=True,blank=True)
-    image=models.ImageField(upload_to='pictures')
+    user = models.OneToOneField(UserAccount,null=True,blank=True,on_delete=models.CASCADE)
+    image=models.ImageField(upload_to='pictures',null=True,blank=True)
     passport_number=models.IntegerField(null=True,blank=True)
     visa_number=models.CharField(max_length=50,null=True,blank=True)
-
     created_at=models.DateTimeField(auto_now_add=True)
