@@ -19,4 +19,8 @@ class PersonalDetails(models.Model):
     visa_number=models.CharField(max_length=50,null=True,blank=True)
     accomodation = models.CharField(max_length=22,null=True,blank=True,choices=accomodation_type)
     created_at=models.DateTimeField(auto_now_add=True)
+    
+
+    def __str__(self):
+        return (self.user.username)
 
