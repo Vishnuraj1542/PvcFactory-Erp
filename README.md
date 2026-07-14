@@ -226,6 +226,44 @@ npm run dev
 
 ---
 
+						Modules
+
+
+	Accounts
+
+		1. Useraccounts
+		2.UserDetails
+
+
+	Quality Checking
+		1.inspected
+		2.rejected details
+		3.rework status
+
+
+
+	Pay Roll
+		1.salary Details
+			user_id=onetoone key
+
+		2.OT Details
+		3.monthly salary
+
+	Production
+		1.Daily production
+			/ profile_id
+			/shift-
+			/workers
+			/quantity
+			/shift start
+			/shift end
+		2.Items Details
+			/profile name
+			 /id
+			/batch code
+			/die number
+3.
+
 ## 🎯 Project Goals
 
 - Digitize factory management
