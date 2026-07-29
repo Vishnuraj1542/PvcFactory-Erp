@@ -176,7 +176,7 @@ Each dashboard displays only the information relevant to that user.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/vishnurajc1542/pvc-factory-management.git
+git clone https://github.com/vishnuraj1542/pvc-factory-management.git
 ```
 
 ### Backend
